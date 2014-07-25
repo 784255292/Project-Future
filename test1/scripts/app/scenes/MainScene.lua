@@ -13,11 +13,11 @@ function MainScene:ctor()
     self:addChild(self.coin)
         
     --CCS
-    self.uiLayer = TouchGroup:create()
-    self:addChild(self.uiLayer)
+    self.uiTouchGroup = TouchGroup:create()
+    self:addChild(self.uiTouchGroup)
 
     self.uiWidget = GUIReader:shareReader():widgetFromJsonFile("DemoLogin/DemoLogin.json")
-    self.uiLayer:addWidget(self.uiWidget)
+    self.uiTouchGroup:addWidget(self.uiWidget)
 
     self.uiWidget:setAnchorPoint(cc.point(0.5,0.5))
     self.uiWidget:setPosition(cc.point(display.cx, display.cy))
