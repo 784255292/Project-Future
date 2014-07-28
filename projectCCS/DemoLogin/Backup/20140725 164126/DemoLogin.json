@@ -10,16 +10,7 @@
   "designHeight": 320,
   "designWidth": 480,
   "textures": [],
-  "texturesPng": [
-    "Register.png",
-    "button.png",
-    "button_p.png",
-    "star2.png",
-    "box.png",
-    "check.png",
-    "close1.png",
-    "close2.png"
-  ],
+  "texturesPng": [],
   "version": "1.5.0.1",
   "widgetTree": {
     "classname": "Panel",
